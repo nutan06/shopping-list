@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping list</title>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/cart.png" />
+	
+</head>
+<body>
+	<div class="container">
+	<div class="title">
+		<h1>Shopping List</h1>
+		<h3>By Nutan Mandale</h3>
+	</div>
+	<form id="entry">
+		<input type="text" id="new-item" placeholder="Enter the items here...." autofocus>
+		<input type="submit" class="add" value="Add the items">
+		<input type="button" class="delete" value="Remove checked items">
+	</form>
+	<div class="shopping-list">
+		<ul class="items">
+			<li class="item"><input type="checkbox"  class="check">Toys
+			</li>
+			<li class="item"><input type="checkbox" class="check">Books
+			</li>
+			<li class="item"><input type="checkbox"  class="check">Grocery
+			</li>
+		</ul>
+	</div>
+	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script src="js/shoppinglist.js"></script>
+
+</body>
+</html>

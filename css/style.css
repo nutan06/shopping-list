@@ -1,0 +1,82 @@
+body{
+	background-color:#aacbfb;
+	font-family: 'Pacifico', cursive;
+	line-height:1.5rem;
+}
+.container{
+	background-image:url(../images/pencil.jpg);
+	position: relative;
+	background-size:100%;
+	background-repeat: no-repeat;
+max-width: 70%;
+height: 100%;
+margin: 2em auto;
+border: 1px solid #999999;
+border-radius: 5px;
+box-shadow: 3px 3px 5px #777777;
+
+}
+.title{
+	text-align: center;
+	margin-left:0;
+	margin-right:0;
+	font-family: 'Pacifico', cursive;
+}
+.title h1{
+	font-size:40px;
+	margin-top:120px;
+	color:#0051cb;
+}
+.title h3{
+	font-size:18px;
+	padding-top:2.5rem;
+}
+#entry{
+	text-align: center;
+	margin:0 auto;
+	width:50%;
+	margin-top:2.5rem;
+	padding:2rem;
+}
+#new-item{
+	width:100%;
+	height:2rem;
+	font-family:'Pacifico', cursive;
+	color:#333333;
+	font-size:1.5rem;
+	font-weight: normal;
+	box-shadow: 3px 3px 3px #999999;
+	padding:0.5rem;
+}
+.shopping-list
+{
+	width:50%;
+	font-size:1.5rem;
+	font-weight: normal;
+	margin:0 auto;
+}
+.items{
+	padding:1.5rem;
+}
+.item{
+	padding:1rem;
+	color:#555555;
+}
+.check{
+	padding:0.5rem;
+}
+.item:hover{
+	cursor:pointer;
+}
+
+.delete,.add{
+	padding:0.5rem;
+	margin-left:3rem;
+	margin-top:2rem;
+	font-family:'Pacifico', cursive;
+	color:#ffffff;
+	background-color:#497cb5;
+	border-radius:5px;
+	font-size: 16px;
+	box-shadow: 3px 3px 5px #777777;
+}
